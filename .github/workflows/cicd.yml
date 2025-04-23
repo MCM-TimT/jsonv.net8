@@ -23,8 +23,8 @@ jobs:
     - uses: actions/checkout@v1
     - uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '6.0.x'
-        source-url: https://nuget.pkg.github.com/marcusturewicz/index.json
+        dotnet-version: '8.0.x'
+        source-url: https://nuget.pkg.github.com/MCM-TimT/index.json
       env:
         NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
     - run: dotnet build -c Release
