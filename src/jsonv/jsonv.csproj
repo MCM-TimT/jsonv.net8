@@ -1,13 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <!-- Console app metadata -->
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net6.0</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
     <!-- Tool metadata -->
     <PackAsTool>true</PackAsTool>
      <!-- NuGet package metadata -->
-    <PackageId>jsonv</PackageId>
+    <PackageId>jsonv.net8</PackageId>
     <Description>A .NET Tool to validate JSON files on disk</Description>
     <Authors>Marcus Turewicz, DEVCommunity</Authors>
     <PackageTags>json json-validation json-validator</PackageTags>
@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\logo.png" Pack="true" PackagePath=""/>
+    <None Include="..\..\logo.png" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
